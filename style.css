@@ -1,16 +1,51 @@
 @charset "UTF-8";
 body {
     background-color: #fffeee;
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1  {
     color: #0bd;
+    font-family: serif;
+    background-color: #feefee;
+    width: 100vh;
+    height: 40px;
 }
 
 p {
-    font-size: 10px;
+    font-size: 100%;
+    font-family: "YuGothic", sans-serif;
 }
 
 div p {
     color: aquamarine;
+    font-weight: bold;
+}
+
+article div p {
+    color: chartreuse;
+    background-color: aliceblue;
+    line-height: 1.7;
+    text-align: left;
+    font-family:'Open Sans Condensed', sans-serif;;
+    margin: 20px 0 100 10px;
+    padding: 10px 10px 10px 10px;
+    width: 50vh;
+    border-right: 20px inset #feefee;
+}
+
+ul {
+    border-style: solid;
+    border-color: tomato;
+    width: 30vh;
+    color: aqua;
+    list-style-type: hiragana-iroha;
+    list-style-position: inherit;
+}
+
+li {
+    border-bottom: 2px groove #0bd;
+    width: 5vh;
 }

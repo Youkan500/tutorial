@@ -1,0 +1,80 @@
+/* common */
+html {
+    font-size: 100%;
+}
+
+/* HOME
+-------------------*/
+#home {
+    
+    max-width: 1366px;
+}
+
+.page-header {
+    background: #58A9EF;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000;
+    max-height: 80px;
+}
+
+.logo{
+    color: #FFF;
+    margin: 26px 0 21px 207px ;
+    font-size: 24px;
+}
+
+.home-nav {
+    display: flex;
+    font-size: 20px;
+    margin-top: 34px;
+    list-style: none;
+    margin-top: 31px;
+    margin-bottom: 27px;
+    margin-right: 203px;
+}
+
+.home-nav li {
+    margin-left: 36px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.main-img {
+    max-width: 1366px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-title {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.content-img {
+    margin-top: 40px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 183px;
+    margin-right: 183px;
+}
+
+.page-footer {
+    text-align: center;
+    margin-top: 40px;
+    background: #58A9EF;
+    max-height: 100px;
+}
+.footer-logo {
+    color: #FFF;
+    padding: 19px 0 10px 0;
+}
+.page-footer p {
+    color: #FFF;
+    margin: 10px 0 10px;
+}

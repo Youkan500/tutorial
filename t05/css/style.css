@@ -57,6 +57,8 @@ li {
 #header {
     width: 100%;
     background-color: #fff;
+    position: fixed;
+    z-index: 10;
 }
 #header .site-title {
     padding: 20px 16px;
@@ -83,7 +85,7 @@ nav ul li {
 #pickup {
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 150px;
     margin-bottom: 60px;
 }
 #pickup article {
@@ -92,4 +94,33 @@ nav ul li {
 #pickup article .pick-text {
     font-size: 1rem;
     margin: 10px 0 15px 0;
+}
+
+/* main Container
+----------------------------*/
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+main {
+    width: 65%;
+}
+main article {
+    margin-bottom: 50px;
+}
+main .article-title {
+    font-size: 1.5rem;
+    margin: 10px 0 15px 0;
+}
+main ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+main li {
+    font-size: 0.875rem;
+    margin-right: 20px;
+}
+main p {
+    padding: 10px 40px 30px 40px;
 }

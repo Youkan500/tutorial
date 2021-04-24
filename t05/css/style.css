@@ -124,3 +124,28 @@ main li {
 main p {
     padding: 10px 40px 30px 40px;
 }
+
+/* aside section
+-------------------------------*/
+#aside {
+    width: 33%;
+    padding: 20px;
+}
+#aside .author h3 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.author {
+    text-align: center;
+}
+.author .profile {
+    font-size: 0.875rem;
+    text-align: left;
+}
+#aside .author-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}

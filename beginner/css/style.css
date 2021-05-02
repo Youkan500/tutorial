@@ -78,3 +78,6 @@ html {
     color: #FFF;
     margin: 10px 0 10px;
 }
+.page-footer {
+    max-width: 100%;
+}
